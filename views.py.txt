@@ -1,0 +1,7 @@
+from django.shortcut import render
+from django.http import HttpResponse
+
+
+def display(request):
+	print('hello')
+	return HttpRespose('Hello')
